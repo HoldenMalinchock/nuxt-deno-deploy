@@ -24,7 +24,7 @@ jobs:
           node-version: 18
           cache: npm
       - run: npm install
-      - run: npm build
+      - run: npm run build
         env:
           NITRO_PRESET: deno
       - name: Deploy to Deno Deploy
