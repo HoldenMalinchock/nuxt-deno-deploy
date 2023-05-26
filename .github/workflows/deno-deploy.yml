@@ -31,5 +31,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: nuxt-deno-deploy
-          entrypoint: .output/server/index.ts
+          entrypoint: /server/index.ts
           root: .output
